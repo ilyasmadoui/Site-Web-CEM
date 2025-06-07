@@ -1,0 +1,443 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.container{
+    display:flex;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+
+.accountIconParent{
+    width: 35%;
+    height: 11vh;
+    position: relative;
+}
+
+.sidebar{
+    background: hsl(0, 0%, 0%);
+    color: #fff;
+    min-height: 100vh;
+    height: auto;
+    width: 200px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:rgb(79, 5, 236);
+    color: #f4e5e5;
+    transition: all 0.5s;
+}
+.active{
+    background: lightskyblue;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+/*------------------------------------------------MonProfile------------------------------------------*/
+.container{
+  background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+} 
+
+.profile {
+    border-radius: 15px;
+    box-shadow: 3px 10px 15px #6d6d6d;
+    width: 50%;
+    height: 90%;
+    padding: 20px;
+    margin-top: 4%;
+    /*margin-left: 30%;*/  
+    display: flex;
+    align-items: center  
+}
+
+.profile h4{
+    margin-left: 30%;
+}
+  
+  .profile img {
+    width: 150px;
+    margin-left: 0%;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .Description {
+    margin-top: 20px;
+    margin-left: 30%;
+    color: #666;
+  }
+  
+  .Description ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Description li {
+    margin-bottom: 10px;
+  }
+  
+  .Description strong {
+    font-weight: bold;
+  }
+  
+  /* Style pour les étiquettes */
+  .Description strong {
+    color: #333;
+    margin-right: 0px;
+  }
+  
+  /* Style pour les valeurs */
+  .Description span {
+    color: #666;
+  }
+  /*--------------------------------Eleves---------------------------------------------------*/
+  /* Styles for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+table th, table td {
+  border: 2px solid #ccc; /* Light grey border */
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #a5a7a8; /* Grey header */
+  color: #fff; /* White text */
+}
+
+/* Print button */
+.imprimer-button {
+  padding: 8px 16px;
+  background-color: transparent;
+  color: #cc6060; /* Light red color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.imprimer-button:hover {
+  background-color: transparent;
+}
+
+/* Add new student button */
+.add-button {
+  padding: 10px 20px;
+  background-color: #17a2b8; /* Turquoise button */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #138496; /* Darker turquoise on hover */
+}
+
+/* Add student icon */
+.addEleve {
+  width: 90px;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  size: 30px;
+  margin-left: 74%;
+  cursor: pointer;
+}
+
+/* Style pour le fond sombre de la modal */
+.modal1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fond sombre semi-transparent */
+  z-index: 1000; /* Assure que la modal apparaît au-dessus de tout le reste */
+}
+
+/* Style pour le contenu de la modal */
+.modal-content1 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Ombre portée */
+  max-width: 500px; /* Largeur maximale de la modal */
+}
+
+/* Style pour le bouton de fermeture */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #aaa;
+}
+
+/* Style pour le formulaire à l'intérieur de la modal */
+form {
+  margin-top: 10px;
+}
+
+/* Style pour les étiquettes des champs */
+label {
+  font-weight: bold;
+}
+
+/* Style pour les champs de saisie */
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style pour les boutons de la modal */
+.add-button {
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Couleur de fond bleue */
+  color: white;
+  cursor: pointer;
+}
+
+/* Style pour le bouton "Annuler" */
+.add-button[type="button"] {
+  background-color: #dc3545; /* Couleur de fond rouge */
+}
+
+/* Style pour le bouton "Ajouter" */
+.add-button[type="submit"] {
+  background-color: #28a745; /* Couleur de fond verte */
+}
+.select-container {
+  text-align: center;
+}
+
+
+
+/*------------------------------------FeuillesDePoints-------------------------------------*/
+/* Operation select styling */
+.operation-select {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #17a2b8;
+  border-radius: 5px;
+  background-color: #2ad1eb;
+  font-size: 14px;
+}
+/*------------------------------------Notification(AbsencesDesEnfants)-----------------------------------------*/
+.page-container {
+  width: 80%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Ajout de la couleur bleue aux éléments h1 et pre */
+.page-container h1,
+.page-container pre {
+  color: blue;
+}
+
+.content-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.notification-container {
+  margin-top: 20px;
+}
+
+.notification-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notification-item {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.email-icon {
+  margin-right: 10px;
+}
+
+.modal-content2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.close2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.notification-details {
+  margin-top: 20px;
+}
+
+.notification-message {
+  white-space: pre-wrap;
+}
+
+/*--------------------------------------Messanger----------------------------------------------*/
+.messenger-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.message-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+.message.parent {
+  background-color: #bfc9b7;
+  align-self: flex-end;
+}
+
+.message.teacher {
+  background-color: #EFEFEF;
+  align-self: flex-start;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-container button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #0056b3;
+}
+
+.delete-icon {
+  color: rgb(119, 116, 116); 
+  cursor: pointer; 
+  margin-left: 95%; 
+}
+
+.delete-icon:hover {
+  color: rgb(2, 2, 2); /* Change color to dark red when hovering over the icon */
+}
+
+.upload-icon {
+  font-size: 24px;
+  margin-right: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+.attached-image {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+/*-------------------------------------------------------------------------------------------*/
+
+.select-container {
+  display: flex; /* Utilisation de flexbox pour aligner les éléments sur la même ligne */
+  align-items: center; /* Alignement vertical des éléments */
+}
+
+/* Style du sélecteur */
+.select23 {
+  width: 150px; /* Largeur du sélecteur */
+  height: 35px;
+  margin-right: 20px; /* Marge à droite pour créer de l'espace entre les sélecteurs */
+}
+
+
+@media (max-width: 700px) {
+  .allContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left, .right {
+    width: 100%;
+    padding: 10px;
+  }
+}

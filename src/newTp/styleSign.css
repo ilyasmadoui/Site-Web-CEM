@@ -1,0 +1,430 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.password-icon{
+    margin-left: -15px;
+}
+
+.accountIconLogin {
+    width: 100px; /* Adjust the width and height as needed */
+    height: 100px;
+  }
+
+.page{
+width: 100%;
+height: 100hv;
+}
+.navbar{
+display: flex;
+height: 10vh;   
+/*background-image: url(../pic/bg1.jpg);
+background-size: cover;
+    background-position: center;
+ background-repeat: no-repeat;*/
+background-color: #00000017;
+align-items: center;
+position: relative;
+box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.205);
+}
+.logobar{
+    width: 7%;
+}
+.h1bar{
+    font-size: 29px;
+    color:black ;
+}
+
+.infoAcountIcon{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.allContent{
+    display: flex;
+   height: 90vh;
+   width: 100%;
+   /*background-image: url(../pic/bg1.jpg);
+background-size: cover;
+    background-position: center;
+ background-repeat: no-repeat;*/
+align-items: center;
+}
+.left{
+    flex:1;
+ display: flex;
+ justify-content: center;
+ 
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #00000017;
+    padding: 1% 3% 3% 3%;
+    margin: 6%;
+    width: 66%;
+    height: 75vh;
+    border-radius: 20px;
+    animation: borderAn 3s infinite linear; 
+
+}
+
+
+@keyframes borderAn {
+    0% {
+      box-shadow: 0 0 10px  #2a3f6dbd;
+    }
+    50% {
+      box-shadow: 0 0 10px  #18326ebd;
+    }
+    100% {
+      box-shadow: 0 0 10px #2a3f6dbd;
+    }
+  }
+.accountIcon{
+    width: 19%;
+    height: 14vh;
+    border-radius: 50%;
+}
+.iconUSer{
+    font-size:200% ;
+    color: rgb(27, 27, 63);
+    padding-right: 20px;
+
+}
+.signH{
+   
+    font-size: 25px;
+    color: rgb(27, 27, 63);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+.signH1{
+    font-size: 30px;
+}
+
+.type{
+    font-size: 18px;
+
+}
+.right{
+    flex:1;
+    display: flex;
+ justify-content: center;
+}
+.parg{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0% 0% 2% 5%;
+    text-decoration:  underline;
+}
+.numbre{
+    font-size: 15px;
+    background-color: #2a3f6dbd;
+    border-radius: 50%;
+    padding: 1px 6px;
+    margin-right: 3px;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    padding:0% 5%   0% 5%;
+}
+.labelForm{
+    padding: 0.5% 4%;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    
+}
+.iconInput{
+    width: 15px;
+}
+.inputForm{
+   width: 93%;   
+   height: 4%;
+   border-radius: 20px;
+   border: 2px solid #666666;
+   padding: 2% 3%;
+   font-size: 15px;
+   margin-bottom: 3px;
+   background-color: #dddbdb41;
+}
+.selectForm{
+    border-radius: 20px;
+    border: 2px solid #666666;
+    padding: 2% 3%;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: #dddbdb41;
+}
+.divBtnSub{
+    display: flex;
+    width: 100%;
+    align-self:center ;
+    justify-content: center;
+    
+}
+
+.btnForm{
+    background-color:#4562a194;
+    height: 40px;
+    width: 100PX;
+    color: black;
+    font-weight: 600;
+    appearance: none;
+    border:1px solid #303030;
+    border-radius: 20px;
+    
+    transition: 0.3ms ease;
+
+}
+.btnForm:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.error-message {
+    color: red;
+    font-size: 13px;
+   padding-left: 5px;
+  }
+  
+
+.two{
+    display: flex;
+    height: 7vh;
+    margin-bottom:20px;
+}
+#one1{
+    padding-right: 20px;
+}
+
+.secondForm .parg{
+}
+
+.one input{
+  height: 4.5vh;
+  width: 84%;
+  padding: 2% 7%;
+
+}
+.one label{
+    padding-left: 15px;
+    
+}
+
+.contentRight{
+    background-color: #4562a194;
+    width: 100%;
+    height: 90vh;
+    border-radius:30px 0 0 30px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.iconInscrire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.account{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 5px;
+}
+.iconBtn{
+    width: 152px;
+    height: 150px;
+    border-radius: 50%;
+    transition: 0.3ms ease;
+    background: none;
+    border: none;
+}
+
+.iconBtnimg{
+border: #000000 1px solid;
+cursor: pointer;
+
+}
+
+.iconBtnimg:hover{
+    border: 2px solid rgb(78, 78, 78);
+
+}
+.iconInscrire img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+
+}
+.leftBtn{
+    width: 120px;
+    height: 42px;
+    border-radius: 20px;
+    border:1px solid #4562a194;
+    background-color: rgb(237, 237, 238);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0,3;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
+}
+.leftBtn:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+    .navElement ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    right: 3%;
+    top: 2vh;
+}
+
+.navElement ul li{
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 6px  10px  7px  10px;
+    cursor: pointer;
+}
+
+.selectionner{
+    background-color: #4562a194;
+    border-radius: 20px;
+    color: rgb(233, 233, 233) ;
+} 
+.btn_Nav_Inscrire{
+    background-color: #4562a194;
+
+    height: 40px;
+    width: 100%;
+    color: black;
+    appearance: none;
+    border:1px solid #303030;
+    border-radius: 20px;
+    transition: 0.3ms ease;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    color:#0c2e77;
+    font-weight: 900;
+    font-size: 15px;
+
+}
+.btn_Nav_Inscrire:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.nav-links{
+    margin-top: 30%;
+}
+
+.fermer{
+    float: right;
+    margin-right: 0%;
+    border: transparent;
+    background-color: aliceblue;
+    cursor: pointer;
+  }
+
+  .h3-navbar-inscrire{
+   color: black;
+   text-decoration:  underline;
+  }
+
+  .code{
+    width: 35%;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 0.5% 4%;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-left: 30%;
+    border: 2px solid #666666;
+    
+    background-color: #dddbdb41;
+  }
+
+  .btn-confirmer{
+    background-color: #4562a194;
+    height: 40px;
+    width: 100PX;
+    color: black;
+    font-weight: 600;
+    position: absolute;
+    appearance: none;
+    border:1px solid #303030;
+    border-radius: 20px;
+    top:80%;
+    left: 40%;
+    transition: 0.3ms ease;
+}
+.btn-confirmer:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.sendCodeReq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.req{
+    font-weight: 800;
+    text-decoration: underline !important;
+}
+.req:hover{
+   color: #0c2e77;
+}
+.navElement ul li:hover{
+    background-color: #4562a194;
+    border-radius: 20px;
+    color: rgb(241, 241, 241);
+}
+.selectionner:hover{
+    color: #0c2e77 ;
+    background: none ;
+}
+
+@media (max-width: 700px) {
+    .allContent {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left, .right {
+      width: 100%;
+      padding: 10px;
+    }
+  }
