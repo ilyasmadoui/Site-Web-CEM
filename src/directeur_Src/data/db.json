@@ -1,0 +1,153 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "email": "maakoufabdelaziz@gmail.com",
+      "num": "0548968521",
+      "nomFr": "MAAKOUF",
+      "nomAr": "معكوف",
+      "prenomFr": "abdelaziz",
+      "prenomAr": "عبد العزيز",
+      "sexe": "male",
+      "date": "27/02/1971",
+      "ident": "111118",
+      "wilaya": "Alger",
+      "college": "Madani Rahmoune",
+      "adresse": "700"
+    },
+ {
+      "id": "2",
+      "email": "harketamina002@gmail.com",
+      "num": "0745454892",
+      "nomFr": "HARKET",
+      "nomAr": "حركات",
+      "prenomFr": "Amina",
+      "prenomAr": "امينة",
+      "sexe": "femelle",
+      "date": "04/11/1968",
+      "ident": "147895",
+      "wilaya": "Annaba",
+      "college": "cheikh el abed",
+      "adresse": "dhalaa"
+    }
+  ],
+  "ens": [
+    {
+      "id": "1",
+      "email": "suicinada15@gmail.com",
+      "num": "0789654123",
+      "nomFr": "SUICI",
+      "nomAr": "سويسي",
+      "prenomFr": "Nada",
+      "prenomAr": "ندى",
+      "sexe": "femelle",
+      "date": "30/05/1997",
+      "ident": "945400",
+      "wilaya": "Biskra",
+      "college": "cheikh el abed",
+      "poste": "Francais"
+    }, 
+{
+      "id": "2",
+      "email": "mahmoudirayen15@gmail.com",
+      "num": "0569874529",
+      "nomFr": "MAHMOUDI",
+      "nomAr": "محمودي",
+      "prenomFr": "Rayen",
+      "prenomAr": "ريان",
+      "sexe": "femelle",
+      "date": "30/05/1984",
+      "ident": "89400",
+      "wilaya": "Biskra",
+      "college": "cheikh el abed",
+      "poste": "Arabe"
+    }, 
+{
+      "id": "3",
+      "email": "mahmoudirayen15@gmail.com",
+      "num": "0789654712",
+      "nomFr": "MISSAOUI",
+      "nomAr": "ميساوي",
+      "prenomFr": "Bassmala",
+      "prenomAr": "بسملة",
+      "sexe": "femelle",
+      "date": "30/05/1977",
+      "ident": "78540",
+      "wilaya": "Biskra",
+      "college": "Madani Rahmoune",
+      "poste": "Anglais"
+    }
+  ],
+  "parent": [
+    {
+      "id": "1",
+      "email": "ddzo14@gmail.com",
+      "num": "0745454892",
+      "nomFr": "harket",
+      "nomAr": "حركات",
+      "prenomFr": "amina",
+      "prenomAr": "امينة",
+      "sexe": "femele",
+      "date": "04/11/1968",
+      "ident": "147895",
+      "wilaya": "Annaba",
+      "college": "abed",
+      "adresse": "dhalaa"
+    },
+    
+    {
+      "id": "3",
+      "email": "pmpi_er@gmail.com",
+      "num": "0658749314",
+      "nomFr": "houas",
+      "nomAr": "حواس",
+      "prenomFr": "khedidja",
+      "prenomAr": "خديجة",
+      "sexe": "femele",
+      "date": "19/09/1995",
+      "ident": "007784",
+      "wilaya": "Biskra",
+      "college": "abed",
+      "adresse": "hlm"
+    }
+  ],
+  "Eleves": [
+   
+    {
+      "id": "1",
+      "nomFr": "DJOUDI",
+      "nomAr": "جودي",
+      "prenomFr": "Maria",
+      "prenomAr": "ماريا",
+      "sexe": "femelle",
+      "dateNaissance": "2015-03-13",
+      "niveau": "4AM",
+      "classe": "2",
+      "wilaya": "Biskra"
+    },
+ {
+      "id": "2",
+      "nomFr": "BELDJBAL",
+      "nomAr": "بلجبل",
+      "prenomFr": "Rami",
+      "prenomAr": "رامي",
+      "sexe": "male",
+      "dateNaissance": "2010-02-12",
+      "niveau": "3AM",
+      "classe": "2",
+      "wilaya": "Biskra"
+    },
+{
+      "id": "3",
+      "nomFr": "SNOUCI",
+      "nomAr": "سنوسي",
+      "prenomFr": "Ahmed",
+      "prenomAr": "احمد",
+      "sexe": "male",
+      "date": "14/01/2013",
+      "wilaya": "Biskra",
+      "niveau": "1AM",
+      "classe": "789874"
+    }
+  ]
+}

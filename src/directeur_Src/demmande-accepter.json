@@ -1,0 +1,99 @@
+{"existeAdm":[
+    {
+        "id": "1",
+        "email": "maakoufabdelaziz@gmail.com",
+        "num": "0548968521",
+        "nomFr": "MAAKOUF",
+        "nomAr": "معكوف",
+        "prenomFr": "abdelaziz",
+        "prenomAr": "عبد العزيز",
+        "sexe": "male",
+        "date": "27/02/1971",
+        "ident": "111118",
+        "wilaya": "Alger",
+        "college": "Madani Rahmoune",
+        "adresse": "700"
+      },
+   {
+        "id": "2",
+        "email": "harketamina002@gmail.com",
+        "num": "0745454892",
+        "nomFr": "HARKET",
+        "nomAr": "حركات",
+        "prenomFr": "Amina",
+        "prenomAr": "امينة",
+        "sexe": "femelle",
+        "date": "04/11/1968",
+        "ident": "147895",
+        "wilaya": "Annaba",
+        "college": "cheikh el abed",
+        "adresse": "dhalaa"
+      }
+],
+
+"existeProf":[
+    {
+        "id": "1",
+        "email": "maakoufabdelaziz@gmail.com",
+        "num": "0548968521",
+        "nomFr": "MAAKOUF",
+        "nomAr": "معكوف",
+        "prenomFr": "abdelaziz",
+        "prenomAr": "عبد العزيز",
+        "sexe": "male",
+        "date": "27/02/1971",
+        "ident": "111118",
+        "wilaya": "Alger",
+        "college": "Madani Rahmoune",
+        "adresse": "700"
+      },
+   {
+        "id": "2",
+        "email": "harketamina002@gmail.com",
+        "num": "0745454892",
+        "nomFr": "HARKET",
+        "nomAr": "حركات",
+        "prenomFr": "Amina",
+        "prenomAr": "امينة",
+        "sexe": "femelle",
+        "date": "04/11/1968",
+        "ident": "147895",
+        "wilaya": "Annaba",
+        "college": "cheikh el abed",
+        "adresse": "dhalaa"
+      }
+],
+
+"existeEns":[
+    {
+        "id": "1",
+        "email": "maakoufabdelaziz@gmail.com",
+        "num": "0548968521",
+        "nomFr": "MAAKOUF",
+        "nomAr": "معكوف",
+        "prenomFr": "abdelaziz",
+        "prenomAr": "عبد العزيز",
+        "sexe": "male",
+        "date": "27/02/1971",
+        "ident": "111118",
+        "wilaya": "Alger",
+        "college": "Madani Rahmoune",
+        "adresse": "700"
+      },
+   {
+        "id": "2",
+        "email": "harketamina002@gmail.com",
+        "num": "0745454892",
+        "nomFr": "HARKET",
+        "nomAr": "حركات",
+        "prenomFr": "Amina",
+        "prenomAr": "امينة",
+        "sexe": "femelle",
+        "date": "04/11/1968",
+        "ident": "147895",
+        "wilaya": "Annaba",
+        "college": "cheikh el abed",
+        "adresse": "dhalaa"
+      }
+]
+}
