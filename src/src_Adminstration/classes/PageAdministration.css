@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* تأكد من أن الحاوية تأخذ كامل ارتفاع النافذة */
+    background-color: #f8f9fa;
+
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+    overflow-y: auto; /* إضافة التمرير العمودي للمحتوى الرئيسي */
+}
+
+.accountIconParent {
+    width: 35%;
+    height: 11vh;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.sidebar {
+    background: #04172e;
+    color: #fff;
+    min-height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+    overflow-y: auto; /* إضافة التمرير العمودي للشريط الجانبي */
+    flex-shrink: 0; /* لمنع الشريط الجانبي من التقلص */
+}
+
+.top_section {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.bars {
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.link {
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+
+.link:hover {
+    background: rgb(79, 5, 236);
+    color: #f4e5e5;
+    transition: all 0.5s;
+}
+
+.active {
+    background: lightskyblue;
+    color: #000;
+}
+
+
+.link_textNav{
+    font-size: 15px;
+}
+.iconNav{
+    font-size: 20px;
+}
+.Description button{
+ border: none;
+ background: none;
+ cursor: pointer;
+}
+.container-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.profile-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+}
+
+.profile-header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-pic-label {
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: #0000007a 1px solid;
+}
+
+.file-input {
+    display: none;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.info-section {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.info-section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-details {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+
+.profile-item:last-child {
+    border-bottom: none;
+}
+
+.edit-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+    width: 300px;
+    max-width: 100%;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.modal-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+.modal-buttons button:last-child {
+    background-color: #dc3545;
+}
+.inputModifie{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.inputModifie input{
+   
+    width: 100%;
+    padding: 5px 4px;
+    margin-top: 10px;
+}
+.btnSendCode{
+    border: none;
+    background: none;
+    color: #064991;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 10px;
+}
+

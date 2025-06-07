@@ -1,0 +1,1188 @@
+*{
+  margin: 0;
+  padding: 0%;
+ }
+ 
+ 
+ .table {
+   width: 100%;
+   border-collapse: collapse;
+   overflow-y: auto;
+ }
+ 
+ .table th,
+ .table td {
+   padding: 12px;
+   text-align: left;
+   border-bottom: 1px solid #ddd;
+ }
+ 
+ .table th {
+   background-color: #929292;
+   font-weight: bold;
+   color: #222222;
+ }
+ 
+ .table tbody tr:nth-child(even) {
+   background-color: #f9f9f9;
+ }
+ 
+ .table tbody tr:hover {
+   background-color: #e9e9e9;
+ }
+ 
+ 
+ 
+ .Fltr{
+   display: flex;
+ justify-content: space-between;
+ margin-bottom: 10px;
+ }
+ 
+ 
+ .select{
+   margin-right: 10px;
+   padding: 5px 10px;
+   font-size: 15px;
+ 
+ 
+ }
+ 
+ .fltring{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   position: sticky;
+   align-items: center;
+ }
+ 
+ .fltring input{
+   padding: 5px 10px;
+   width: 20%;
+   color: #000000;
+   font-size: 15px;
+ }
+ .table {
+   width: 100%;
+   border-collapse: collapse;
+   min-height: 100px;
+   overflow-y: auto;
+ }
+ 
+ /* تعديل لأسلوب الجدول */
+ .table th,
+ .table td {
+   padding: 12px;
+   text-align: left;
+   border-bottom: 1px solid #ddd;
+   white-space: nowrap; /* تفادي الانتقال الأفقي للنصوص */
+   overflow: hidden;
+   text-overflow: ellipsis; /* إظهار نقط تلميحية للنصوص التي تتعدي عرض الخلية */
+ }
+ .rightContent {
+   width: 96%;
+   height: 95%;
+   padding: 12px 20px;
+   
+   
+ }
+ 
+ .table {
+   min-width: 100%;
+   border-collapse: collapse;
+   min-height: 100px;
+ }
+ 
+ .table th,
+ .table td {
+   padding: 12px;
+   text-align: left;
+   border-bottom: 1px solid #d4d4d4;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   text-align: center;
+ 
+ }
+ 
+ .table th:nth-child(1), 
+ .table th:nth-child(2), 
+ .table th:nth-child(3), 
+ .table th:nth-child(4),.table th:nth-child(5) ,.table th:nth-child(6) ,.table th:nth-child(7) ,.table th:nth-child(8),.table th:nth-child(9){ 
+   position: sticky;
+   top: 0; 
+   z-index: 1; 
+   background-color: #acacac; 
+ }
+ 
+ .topInfo{
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .emploideTemp {
+   background-color: #e9e8e8;
+   width: 100%;
+   border-collapse: collapse;
+   min-height: 100px;
+   margin-top:3%;
+   height: 70%;
+ }
+ .emploideTemp td,.emploideTemp th{
+   border: 1px solid black;
+   text-align: center; /* توسيط النص في خانات الجدول */
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   font-size: 16px;
+   
+ }
+ 
+ .day,.periode{
+   background-color: #bdbdbd;
+   font-weight: bold;
+   padding: 10px 5px ;
+ 
+ }
+ .time{
+   background-color: #5d9fd6;
+ }
+ 
+ .subject{
+   padding: 10px 5px;
+   
+ }
+ .select2{
+   margin-right: 10px;
+   margin-top: 15px;
+   padding: 2px 10px;
+   font-size: 14px;
+ }
+ .op{
+ margin: 5px;
+ padding: 2px 4px;
+ }
+ input[type="radio"] {
+   width: 20px;
+   height: 20px;
+   background-color: rgb(0, 0, 0);
+ }
+ 
+ 
+ .imgTable{
+   width: 19%;
+   height: 10vh;
+   margin-left: 20px;
+ }
+ .actions{
+   display: flex;
+   height: 100%;
+   width: 100%;
+   justify-content: center;
+   flex-direction: column;
+   
+ }
+ 
+ .BtnTable{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 1% 5%;
+   width: 100%;
+   height: 34vh;
+   font-size: 20px;
+ }
+ .imgBack{
+   width: 3%;
+   cursor: pointer;
+ 
+ }
+ .selectTd{
+ height: 60px;
+ width: 100%;
+ 
+ }
+ .selectTable{
+   height:100%;
+   width: 100%;
+ font-size: 14px;
+ background-color: #ecebeb;
+ }
+ .selectTdd{
+ height: 60px;
+ width: 100%;
+ font-weight: 700;
+ 
+ }
+ .save{
+   background-color: #1074b8d2;
+   color: #000000;
+   font-size: 20px;
+   font-weight: 600;
+   width: 10%;
+   height: 10%;
+   padding: 6px;
+   margin: 10px;
+   appearance: none;
+   border: none;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.26); /* العودة للظل الأولي */
+ cursor: pointer;
+ }
+ .save:hover{
+   background-color: #0057b37e;
+ }
+ 
+ .saveDiv{
+   padding-top: 10px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+ }
+ 
+ .buttonGroup {
+   display: flex;
+   justify-content: space-between; /* لتوزيع الأزرار بالتساوي */
+   margin-bottom: 20px; /* تباعد بين المجموعات */
+ }
+ 
+ .buttonGroup button {
+   flex: 1; /* يأخذ كل زر نصيبًا متساويًا من المساحة */
+ }
+ 
+ .tableClass {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 20px;
+ }
+ 
+ .tableClass th, .tableClass td {
+   padding: 8px;
+   border: 1px solid #5a5a5a;
+   text-align: center;
+ }
+ .addSectionForm {
+   margin-bottom: 20px;
+ }
+ .ClassNiveau{
+   background-color: #5d9fd6;
+ }
+ .thClass{
+   background-color: #00000052;
+ }
+ 
+ .addSectionForm label {
+   display: inline-block;
+   margin: 18px 0px;
+   font-size: 18px;
+ }
+ 
+ .addSectionForm select,
+ .addSectionForm input {
+   margin-right: 10px;
+   padding: 5px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+ }
+ 
+ .addSectionForm button {
+   padding: 5px 10px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+ }
+ 
+ .addSectionForm button:hover {
+   background-color: #0056b3;
+ }
+ .btnSupp{
+   color: rgb(182, 0, 0);
+   font-weight: bold;
+ }
+ .btnajou{
+   color: rgb(11, 37, 121);
+   font-weight: bold;
+ }
+ .choose{
+   margin-left: 10px;
+   margin-right: 50px;
+ }
+ .chooseDiv{
+   display: flex;
+   padding: 5px 25px;
+ }
+ .chooseDiv b{
+   margin-right: 20px;
+ }
+ /*
+ .allAnnonce{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+ }
+ .add-annonce{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   width: 40%;
+   padding: 2%;
+   border:1px solid #0000006e;
+   background-color: #00000011;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);
+   margin-bottom: 20px;
+ 
+ }
+ .annonces{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   width: 55%;
+   height: auto;
+   margin: 10px;
+   background-color: #c0c0c086;
+   padding: 20px;
+   border-radius: 20px;
+   border: 1px solid rgba(0, 0, 0, 0.527);
+   border:1px solid #0000006e;
+   background-color: #00000011;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);
+ }
+ .picAnnonce{
+   width: 80%;
+   height: 80%;
+ }
+ .inputAnnonce{
+   padding: 10px;
+   margin: 3px;
+   width: 90%;
+ }
+ 
+ .inputAnnonceText{
+ height:10vh;
+ margin: 3px ;
+  padding: 10px;
+ width: 90%;
+ }
+ 
+ .inputAnnonceImg{
+ margin: 3px;
+ width: 95%;
+ 
+ }
+ .btnAjoutAnnonce{
+   margin: 3px;
+   width: 40%;
+   height: 4vh;
+   background-color: #0a649788;
+   border: 1px solid rgba(0, 0, 0, 0.301);
+   font-weight: bold;
+ 
+ }
+ .anch1{
+   font-size: 30px;
+   font-weight: bold;
+   margin: 10px 50px;
+   
+ }
+ .titleAnnonce{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+ }
+ .add-annonce h2{
+   margin: 10px;
+ }
+ .InfoAnnonce {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   justify-content: flex-end;
+ }
+ .InfoAnnonce p{
+   margin: 3px 10px;
+ }
+ .btnAnnonce button{
+   margin: 5px 10px;
+   width: 90PX;
+   height: 4VH;
+   border:1px solid #00000048;
+ font-size: 13px;
+ font-weight: 900;}
+ .suppAnnonce{
+   background-color: #da0000;
+ 
+ }
+ .modifeAnnonce{
+     background-color: #0056b3;
+ 
+ }*/
+ 
+ .Envoier{
+   color: rgb(207, 0, 0);
+   font-weight: bold;
+   cursor: pointer;
+ }
+ /*.allModel{
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #e6e6e6e0;
+   border: 1px solid #000000;
+   border-radius: 20px;
+   padding: 10px;
+ }*/
+ 
+ .modal-root{
+   width: 100%;
+   height: 85vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+ }
+ .info{
+   display: flex;
+   margin-top: 10px;
+ }
+ .allInfo{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 10px;
+ }
+ .reason{
+   width: 100%;
+   height: 9vh;
+ }
+ .labRaison{
+   font-weight: bold;
+   font-size: 20px;
+ }
+ .boldStyle{
+   font-size: 18px;
+   margin: 5px;
+ }
+ .boldStyle b{
+   font-size: 17px;
+   margin: 10px;
+ }
+ .inputInfo{
+   margin: 5px;
+ }
+ .inputInfo input{
+   margin: 5px;
+ }
+ .lab{
+   display: flex;
+   width: 100%;
+   margin-left: 12%;
+ }
+ .allBtn{
+   display: flex;
+   margin: 10px 4px;
+ }
+ 
+ 
+ .type{
+   font-weight: bold;
+   margin-bottom: 10px;
+   margin-right: 10px;
+ }
+ 
+ 
+ .typeLab{
+   font-size: 14px;
+   margin-left: 10px;
+ }
+ .ajouAnnonce{
+   width: 150px;
+   height: 30px;
+   background-color: #006bdd;
+   border: 1px solid #6d6d6d;
+   font-weight: bold;
+   margin-right: 30px;
+ }
+ 
+ 
+ 
+ * {
+   margin: 0;
+   padding: 0;
+ }
+ 
+ 
+ .table-container {
+   width: 100%;
+   max-height: 400px; /* تعيين الحد الأقصى للارتفاع للحاوية */
+   overflow-y: auto; /* السماح بالتمرير العمودي */
+   border: 1px solid #ddd; /* إطار للحاوية */
+   margin-bottom: 20px; /* تباعد بين الجداول */
+ }
+ 
+ .table {
+   width: 100%;
+   border-collapse: collapse;
+ }
+ 
+ .table th,
+ .table td {
+   padding: 12px;
+   text-align: left;
+   border-bottom: 1px solid #ddd;
+   white-space: nowrap; /* تفادي الانتقال الأفقي للنصوص */
+   overflow: hidden;
+   text-overflow: ellipsis; /* إظهار نقط تلميحية للنصوص التي تتعدى عرض الخلية */
+   text-align: center;
+ }
+ 
+ .table th {
+   background-color: #929292;
+   font-weight: bold;
+   color: #222222;
+ }
+ 
+ .table tbody tr:nth-child(even) {
+   background-color: #f9f9f9;
+ }
+ 
+ .table tbody tr:hover {
+   background-color: #e9e9e9;
+ }
+ 
+ .emploideTemp {
+   background-color: #e9e8e8;
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 3%;
+   height: 70%;
+ }
+ 
+ .emploideTemp td, .emploideTemp th {
+   border: 1px solid black;
+   text-align: center;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   font-size: 16px;
+ }
+ 
+ .day, .periode {
+   background-color: #bdbdbd;
+   font-weight: bold;
+   padding: 10px 5px;
+ }
+ 
+ .time {
+   background-color: #5d9fd6;
+ }
+ 
+ .subject {
+   padding: 10px 5px;
+ }
+ 
+ .save {
+   background-color: #1074b8d2;
+   color: #000000;
+   font-size: 20px;
+   font-weight: 600;
+   width: 10%;
+   height: 10%;
+   padding: 6px;
+   margin: 10px;
+   appearance: none;
+   border: none;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.26);
+   cursor: pointer;
+ }
+ 
+ .save:hover {
+   background-color: #0057b37e;
+ }
+ /*.listeAnnonces{
+ width: 100%;
+ display: flex;
+ flex-direction: column-reverse;
+ align-items: center;
+ }*/
+ .containerProfile{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 90vh;
+ }
+ 
+ 
+ .profile {
+   border-radius: 15px;
+   box-shadow: 3px 10px 15px #838383;
+   width: 50%;
+   height: 67vh;
+   padding: 20px;
+   background-color: #b6c8d3;
+   margin-top: 4%;
+   /*margin-left: 30%;*/  
+   display: flex;
+   align-items: center ;
+   justify-content: center;
+ }
+ 
+ 
+ .profile h4{
+   margin-left: 30%;
+ }
+ 
+ 
+ 
+ .profile img {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   margin-bottom: 20px;
+   
+ }
+ 
+ .Description {
+   color: #525252;
+ }
+ 
+ .Description ul {
+   list-style: none;
+   padding: 0;
+ }
+ 
+ .Description li {
+   margin-bottom: 10px;
+ }
+ 
+ .Description strong {
+   font-weight: bold;
+ }
+ 
+ /* Style pour les étiquettes */
+ .Description strong {
+   color: #333;
+   margin-right: 5px;
+ }
+ 
+ 
+ .Description span {
+   color: #666;
+ }
+ .send{
+   background-color: #1074b8d2;
+   color: #000000;
+   font-size: 15px;
+   font-weight: 600;
+   width: 20%;
+   height: 10%;
+   padding: 6px;
+   margin: 10px;
+   appearance: none;
+   border: none;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.26); 
+ cursor: pointer;
+ }
+ .send:hover{
+   background-color: #0057b37e;
+ }
+ .modal-content {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 10px;
+   width: 100%;
+ }
+ 
+ .modal-content p{
+   padding: 10px;
+ }
+ .h3-navbar-inscrire{
+   padding-bottom: 20px;
+ }
+ 
+ 
+ .modal-content-edit label {
+   margin-bottom: 5px;
+   display: block;
+ }
+ 
+ .modal-content-edit select {
+   width: 100%;
+   padding: 8px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   margin-bottom: 10px;
+ }
+ 
+ .modal-content-edit button {
+   padding: 8px 20px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ .modal-content-edit button:hover {
+   background-color: #0056b3;
+   
+ }
+ .editbtn{
+   display: flex;
+   justify-content: center;
+   padding-top: 10px;
+ }
+ 
+ .allAnnonce {
+   width: 80%;
+   max-width: 1200px;
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.568); 
+ }
+ .Annonces{
+   display: flex;
+   justify-content: center;
+ }
+
+ .rechercheAnnonce{
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .rechercheAnnonce input{
+   padding: 10px 20px;
+ }
+ 
+ .titleAnnonce {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+ }
+ 
+ .anch1 {
+   color: #2a4356;
+   
+ }
+ 
+ .ajouAnnonce {
+   background-color: #4caf50;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ .inputAnnonce,
+ .inputAnnonceText,
+ .inputAnnonceImg {
+   width: 100%;
+   margin-bottom: 10px;
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+ }
+ 
+ .ajoutAnnonce,.btnAjoutAnnonce {
+   background-color: #3a4db8;
+   color: #fff;
+   padding: 10px 20px;
+   font-size: 15px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-right: 10px;
+   margin-bottom: 40px;
+ }
+ 
+ .btnAjoutAnnonce:last-child {
+   margin-right: 0;
+ }
+ 
+ .listeAnnonces {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+ 
+ .annonces {
+   background-color: #fff;
+   margin-top: 10px;
+   padding: 10px;
+   border-radius: 8px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.575);
+ }
+ 
+ .picAnnonce {
+   width: 100%;
+   height: 230px;
+   border-radius: 8px;
+   cursor: pointer;
+   border:1px #00000044 solid;
+ }
+ 
+ .InfoAnnonce h3 {
+   margin-bottom: 10px;
+   color: #2a4356;
+ }
+ 
+ .InfoAnnonce p {
+   margin-bottom: 5px;
+ }
+ 
+ .btnAnnonce button {
+   background-color: #3a4db8;
+   color: #fff;
+   border: none;
+   padding: 5px 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   margin: 5px;
+ }
+ 
+ .btnAnnonce button:last-child {
+   margin-right: 0;
+ }
+ .InfoAnnonceDisplay{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ .InfoAnnonceDisplay img{
+ width: 60%;
+ }
+ .infoDisplay{
+   width: 100%;
+ }
+ 
+ 
+ .btnAnnonce{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .imagePlaceholder {
+   width: 100%;  /* عرض 100% من عنصر الوالد */
+   padding-bottom: 82%;  /* نسبة العرض إلى الارتفاع (يمكنك تعديلها حسب أبعاد الصورة المتوقعة) */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #aaa;
+   font-size: 14px;
+   text-align: center;
+ }
+ 
+ 
+ .searchInput {
+   width: 50%;
+   padding: 10px;
+   margin-bottom: 20px;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+ }
+ 
+ 
+ .chContainer {
+     display: flex;
+     align-items: center;
+     margin-bottom: 10px;
+ }
+ 
+ .searchInput {
+     flex: 1;
+     padding: 8px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     margin-right: 10px;
+ }
+ 
+ .searchButton {
+     padding: 8px 16px;
+     background-color: #007bff;
+     color: #fff;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+ 
+ .notificationTable {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 20px;
+   border: 1px solid #535353be; 
+ }
+ 
+ .notificationTable th,
+ .notificationTable td {
+   padding: 10px;
+   border-bottom: 1px solid #535353be;
+   border-right: 1px solid #535353be; 
+   text-align: left;
+ }
+ 
+ .notificationTable th {
+   background-color: #979797;
+   font-weight: bold;
+ }
+ 
+ .notificationTable th:last-child,
+ .notificationTable td:last-child {
+   border-right: none; /* Remove the right border for the last column */
+ }
+ 
+ 
+ .editInput {
+     width: 100%;
+     padding: 8px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     margin-bottom: 10px;
+ }
+ 
+ .saveButton,
+ .cancelButton {
+     padding: 8px 16px;
+     background-color: #28a745;
+     color: #fff;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     margin-right: 10px;
+ }
+ 
+ .cancelButton {
+     background-color: #dc3545;
+ }
+ pre {
+   max-width: 100%; /* الحد الأقصى لعرض النص */
+   text-align: left;
+   word-wrap: break-word; /* تقسيم الكلمات الطويلة */
+   white-space: pre-wrap; /* الحفاظ على الفواصل والمسافات */
+ }
+ .notificationTd{
+   width: 40%;
+ }
+ .editNot,.suppNot{
+   font-weight: 700;
+   cursor: pointer;
+   padding: 4px;
+   font-size: 15px;
+ }
+ .editNot{
+   color: rgb(34, 39, 112);
+ }
+ .suppNot{
+   color: rgb(133, 0, 0);
+ }
+ 
+ 
+ .modalRoot {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.7); /* تغيير شفافية الخلفية */
+ }
+ 
+ .allModel {
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 600px;
+   background-color: #f8f9fa; /* تغيير لون الخلفية */
+   padding: 30px; /* زيادة التباعد الداخلي */
+   border-radius: 12px; /* زيادة شدة الزوايا */
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* تغيير خصائص الظلال */
+ }
+ .imgEdit{
+   width: 150px;
+   margin-right: 10px;
+ }
+ .editAllImg{
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+ }
+ .suppimage{
+   cursor: pointer;
+   border: none;
+   background: none;
+   font-size: 18px;
+   text-decoration: underline;
+ }
+ .boldStyle {
+   font-weight: bold;
+   font-size: 18px; 
+   color: #333; 
+ }
+ 
+ .lab,
+ .labRaison {
+   margin-bottom: 10px; 
+   
+ }
+ .btnsAnnonce{
+   display: flex;
+   align-items: center;
+   justify-content: right;
+ }
+ .inputInfo{
+   font-size: 18px;
+   color: #000000;
+   font-weight: 500;
+ }
+ .suppimage{
+   cursor: pointer;
+   text-decoration: underline;
+ }
+ 
+ .EnvoierBtn,.AnnulerBtn {
+   color: #fff; 
+   border: none;
+   padding: 10px 20px;
+   border-radius: 6px;
+   cursor: pointer;
+   margin:0px 20px ;
+ }
+ .EnvoierBtn{
+  background-color: #a00000; 
+ 
+ } 
+ .AnnulerBtn{
+   background-color: #007bff; 
+  
+  } 
+ .EnvoierBtn:hover {
+   background-color:#920101 ; 
+ }
+ .AnnulerBtn:hover {
+   background-color:#0056b3  ; 
+ }
+ 
+
+ /*----------------------------------------------------------------------------------------*/
+ .filtre {
+  display: flex;
+  align-items: center;
+}
+
+.filtre select,
+.filtre input[type="text"] {
+  margin-right: 10px; /* Marge à droite pour créer de l'espace entre les éléments */
+}
+
+.filtre input[type="text"] {
+  padding-right: 30px; /* Pour donner de l'espace à l'icône de recherche */
+  border: 1px solid #ccc; /* Style de bordure */
+  border-radius: 5px; /* Style de bordure arrondie */
+}
+
+.filtre input[type="text"]::placeholder {
+  color: #999; /* Couleur du texte de l'indicateur de saisie */
+}
+
+.rechercher:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+  outline: none;
+}
+
+.rechercher {
+  width: 100%;
+  padding: 10px 10px 10px 40px; /* Ajuster le rembourrage pour faire de la place pour l'icône */
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+ .search-container1 {
+  position: relative;
+  width: 100%;
+}
+
+.rechercher1 {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+/* Conteneur principal du modal */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+/* Titre du modal */
+.modal h2 {
+  color: blue;
+}
+
+/* Styles pour les étiquettes et les champs de saisie */
+.modal label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.modal input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styles pour les boutons */
+.modal button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style pour le bouton "Enregistrer" */
+.modal button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Style pour le bouton "Annuler" */
+.modal button[type="button"] {
+  background-color: #ccc;
+  color: #000;
+}
